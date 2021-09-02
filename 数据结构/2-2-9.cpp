@@ -8,73 +8,59 @@ struct Link
 };
 
 struct Link* head = (struct Link*)malloc(sizeof(struct Link));
+struct Link* q;
 
-void Linkcreate(Link* L)
+Link* Linkcreate(int num)
 {
 	//创建单链表
 	int data, n;
 	cout << "请输入单链表的节点个数:" << " ";
 	cin >> n;
-	struct Link* q;
-	
 	head->next = NULL;
 	q = head;
 	for (int i = 0; i < n; i++)
 	{
-		struct Link* newNode = (struct Link*)malloc(sizeof(struct Link));
+		struct Link* newP = (struct Link*)malloc(sizeof(struct Link));
 		cout << "请输入第" << i + 1 << "个节点的值:" << " ";
 		cin >> data;
-		newNode->data = data;
-		newNode->next = NULL;
-		head->next = newNode;
+		newP->data = data;
+		newP->next = NULL;
+		head->next = newP;
 		head = head->next;
 	}
 	head->next = NULL;
 	head = q;
+	return head;
 }
 
-void disLink(Link* L)
+void dispLink(Link* L)
 {
 	//打印单链表
-	while (head->next)
+	while (L->next)
 	{
-		cout << head->next->data << " ";
-		head = head->next;
+		cout << L->next->data << "  ";
+		L = L->next;
 	}
 }
 
-void printAndDel(Link* h)
+void Dele_min(Link* head)
 {
-	//函数实现
-	struct Link* pre, * p, * r;
-	while (h->next)
-	{
-		pre = h;
-		p = pre->next;
-		while (p->next)
-		{
-			if (p->next->data < pre->next->data)
-			{
-				pre = p;
-				p = p->next;
-			}
-		}
-		cout << pre->next->data << "  ";
-		r = pre->next;
-		pre->next = r->next;
-		free(r);
-	}
-	free(h);
+	struct Link* pre, * p;
+	pre = head;
+	p = pre->next;
+	
+
 }
+ 
 
 int main()
 {
-    Linkcreate(head);//创建单链表
-	cout << "初始时的单链表为:" << endl;
-	disLink(head);
+	Link* Linkcreate(int);
+	head = Linkcreate(0);
+	cout << "初始时的单链表为:" << " ";
+	dispLink(head);
 	cout << endl;
-	printAndDel(head);
-	disLink(head);
 	system("pause");
 	return 0;
 }
+
