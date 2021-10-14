@@ -1,0 +1,73 @@
+﻿- class_name: 我的网站 🎉🎉
+  class_desc: 成年人当然全都要。
+  link_list:
+    - name: 阿宇のBlog
+      link: https://sunhaha520.github.io/
+      avatar: https://p.pstatp.com/origin/pgc-image/340cd87f1ad543f9959ea1b2fa36fced
+      descr: 本站 Hexo 版
+    - name: 小阿宇总站平台
+      link: https://www.xiaoayu.xyz/ylui/
+      avatar: https://p.pstatp.com/origin/pgc-image/506fea13992546ffa616ee9c13aec6af
+      descr: 一个平台，所有站点
+
+- class_name: 友情链接 👋👋
+  class_desc: 天下快意之事莫若友，快友之事莫若谈。
+  link_list:
+    - name: 不死鸟
+      link: https://iao.su/
+      avatar: https://iao.su/logo.png
+      descr: 不错的资源站
+    - name: guole's Blog
+      link: https://guole.fun/
+      avatar: https://guole.fun/img/gl.jpg
+      descr: 保持理智，相信明天。
+    - name: YuZhangWang的领域
+      link: https://www.yuzhang.wang
+      avatar: https://cdn.jsdelivr.net/gh/YuZhangWang/Creative_pictures01@main/img/20210907012640.png
+      descr: 两岸猿声啼不住 轻舟已过万重山
+    - name: 冰橘の小窝
+      link: https://moe233.net
+      avatar: https://moe233.net/images/avatar.png
+      descr: 困💤
+    - name: 孤舟のBlog
+      link: https://rainy.pro
+      avatar: https://cdn.jsdelivr.net/gh/chyanmo/blog-themes/d4931cc4e0d.jpg
+      descr: 19岁，是菜鸟
+    - name: Kurococ Liu
+      link: https://blog.lkurococ.top
+      avatar: https://cdn.jsdelivr.net/gh/6isixi/imgcloud/avatar.jpg
+      descr: 被子外面很危险
+    - name: 萌！萝莉
+      link:  https://loliloli.moe
+      avatar: https://img.loliloli.moe/images/2021/01/11/avatar.jpg?_ga=2.130640655.1683610710.1630828787-2106217589.1630828787
+      descr: 一个普通的小博客哦~
+
+
+
+- class_name: 推荐网站 ✌✌
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网页框架
+    - name: Hugo
+      link: https://gohugo.io/
+      avatar: https://cdn.guole.fun/logo/hugo.png
+      descr: Go 语言的静态网站生成器
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-github-avatar.png
+      descr: 本站主题，真好看
+    - name: Lovelt
+      link: https://gohugo.io/
+      avatar: https://cdn.guole.fun/logo/lovelt.png
+      descr: Hugo主题，曾借鉴过一些样式，感谢
+    - name: 阿里图标库
+      link: https://www.iconfont.cn/
+      avatar: https://cdn.guole.fun/logo/weizhi.png
+      descr: 多次使用，感谢
+    - name: 8K壁纸库
+      link: https://wallhaven.cc/
+      avatar: https://cdn.guole.fun/logo/weizhi.png
+      descr: 本站背景从这里来，感谢
